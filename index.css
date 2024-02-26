@@ -2,10 +2,38 @@ h1{
     font-size: 30px;
     color: blue;
 }
+@media (min-width: 600px) {
+
+}
+@media(orientation: landscape) and (max-width:800px){
+
+}
 
 @media(max-width:600){
-    h1{
-        font-size: 6px;
-        color: yellow;
+    .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
     }
+}
+.card img{
+    width: 100px;
+}
+.left-section{
+    float: left;
+
+}
+.right-section{
+    /* float: right; */
+    object-fit: cover;
+
+}
+h1{
+    text-align: center;
+}
+.right-section img{
+    
+}
+.card{
+    width: 100%;
 }
